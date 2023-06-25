@@ -1,9 +1,10 @@
-div {
+.container {
   border: 1px solid black;
   border-radius: 20px;
-  max-width: 530px;
+  max-width: 550px;
   margin: 0 auto;
   margin-top: 20px;
+  padding: 15px;
 }
 .h1 {
   text-align: center;
@@ -102,4 +103,17 @@ p {
   text-decoration: none;
   color: black;
   margin-top: 10px;
+}
+.weather-forecast {
+  margin: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
